@@ -19,7 +19,7 @@ pipeline {
 
             steps {
               //  withMaven(maven : 'maven3.3.9') {
-                    sh  'mvn test'
+                    bat  'mvn test'
                // }
             }
         }
